@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events | Nightlife demo | Framework Y</title>
+    <meta name="description" content="All events list with pagination, masonry and load more infinte loading in JQuery.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="scripts/bootstrap/css/bootstrap.css">
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="css/content-box.css">
+    <link rel="stylesheet" href="scripts/magnific-popup.css">    
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top scroll-change" data-menu-anima="fade-left">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar-main navbar-middle">
+                <div class="container">
+                    <div class="scroll-hide">
+                        <div class="container">
+                            <a class="navbar-brand center" href="#">
+                                <img src="images/logo.png" alt="logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav no-margins">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="events.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Events <i class="caret"></i></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="events.html">All events</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li class="scroll-show"><a href="index.html"><img src="images/logo-small.png" alt="logo"></a></li>
+                            
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-title ken-burn" data-parallax="scroll" data-position="top" data-natural-height="705" data-natural-width="1620" data-image-src="DoIt-Pix-Site/black-chix.jpg">
+        <div class="container">
+            <div class="title-base">
+                <h1 class="text-xl">EVENTS CALENDAR</h1>
+                <hr />
+                <p><b>ALL OUR</b> EVENTS</p>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <div class="container content">
+            <div class="maso-list">
+                <div class="navbar navbar-inner">
+                    <div class="navbar-toggle"><i class="fa fa-bars"></i><span>Menu</span><i class="fa fa-angle-down"></i></div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav over ms-minimal inner maso-filters">
+                            <li class="current-active active"><a data-filter="maso-item">All</a></li>
+                            <li><a data-filter="#">January</a></li>
+                            <li><a data-filter="#">February</a></li>
+                            <li><a data-filter="#">March</a></li>
+                            <li><a data-filter="#">April</a></li>
+                            <li><a data-filter="#">May</a></li>
+                            <li><a data-filter="#">June</a></li>
+                            <li><a data-filter="#">July</a></li>
+                            <li><a data-filter="#">August</a></li>
+                            <li><a data-filter="#">September</a></li>
+                            <li><a data-filter="#">October</a></li>
+                            <li><a data-filter="#">November</a></li>
+                            <li><a data-filter="#">December</a></li>
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="maso-box row" data-options="anima:fade-in">
+                    <div data-sort="1" class="maso-item col-md-4 cat1">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/90's.JPG" /></a>
+                            <div class="circle anima-rotate-20 anima">23 <span>MAY, 23</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">90'S THROWBACK PARTY</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="2" class="maso-item col-md-4 cat1">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/image_6487327.JPG" /></a>
+                            <div class="circle anima-rotate-20 anima">17 <span>JAN, 17</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">KAROAKE TUESDAY'S</a></h3>
+                                <p>
+                                    
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="3" class="maso-item col-md-4 cat2">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/unnamed-pix.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">17 <span>JUN 17TH</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">LONG LIVE Q Q-DAY CAR SHOW</a></h3>
+                                <p>
+                                 
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="4" class="maso-item col-md-4 cat3">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/R&B-pix.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">10 <span>JUN, 10</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">R&B TUESDAY</a></h3>
+                                <p>
+                                    
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="5" class="maso-item col-md-4 cat3">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/st.patrick.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">17 <span>MAR, 17</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">ST.PARTICK'S DAY</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="6" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/freak-nik.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">3 <span>JUN, 3</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">BIRTHDAY KICKOFF</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/ano-123.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">17 <span>OCT, 17</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">ROBIN BIRTHDAY CELEBRATION</a></h3>
+                                <p>
+                                  
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/NEW-Y656.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">31 <span>DEC, 31</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">NEW YEARS EVE PARTY</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/PRETTY-DUMB.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">17 <span>MAR, 17</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">FLAWLESS FRIDAY'S</a></h3>
+                                <p>
+                                    
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/sunDAY-FUN.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">11 <span>JUN, 11</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">SUNDAY FUNDAY</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space m" />
+
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/comedy-pix.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">1 <span>MAR, 1</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">COMDEDY NIGHT</a></h3>
+                                <p>
+                                    
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/sweYUN.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">23 <span>JULY, 23</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">KALEB'S 16TH BIRTHDAY PARTY</a></h3>
+                                <p>
+                                    
+                                </p>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/big3.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">31 <span>DEC, 31</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">BIG 3 END OF THE YEAR PARTY</a></h3>
+                                <p>
+                                  
+                                </p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/KING-BD34.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">1 <span>NOV, 1</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">KING PAPER BIRTHDAY CELEBRATION</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/UGLY.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">10 <span>DEC, 10</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">CHEEKS BIRTHDAY PARTY</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/4THJUYTD.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">9 <span>SEP, 9</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">THURDAY NIGHT "FIRST RESPONDERS NIGHT"</a></h3>
+                                <p>
+                                   
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="7" class="maso-item col-md-4 cat10">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/anniversary-freak.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">26 <span>MAR, 26</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">MHYRI ROSE 3 YEAR ANNIVERSARY</a></h3>
+                                <p>
+                                   
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sort="8" class="maso-item col-md-4 cat11">
+                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                            <a class="img-box" href="#"><img alt="" class="anima" src="DoIt-Pix-Site/LADIES.jpg" /></a>
+                            <div class="circle anima-rotate-20 anima">20 <span>FEB, 20</span></div>
+                            <div class="advs-box-content">
+                                <h3><a href="#">LADIES NIGHT</a></h3>
+                                <p>
+                                    
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="list-nav">
+                    <a href="#" class="circle-button btn-sm btn load-more-maso" data-page-items="3">Load More <i class="fa fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section section-bg-animation header-animation">
+        <div id="anima-layer-a" class="anima-layer fog-1"></div>
+        <div id="anima-layer-b" class="anima-layer fog-2"></div>
+        <div class="container content overlay-content text-center">
+            <hr class="space" />
+            <hr class="h" />
+            <h1>GET IN TOUCH</h1>
+            <p class="text-bold">
+                
+            </p>
+            <hr class="space s" />
+            <a class="anima-button circle-button btn-sm" href="contacts.html"><i class="fa fa-map-marker"></i>Locate us on map </a>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <hr class="space xs" />
+                    <div class="row copy-row">
+                        <div class="tag-row">
+                            <span>Copyright © 2023</span>
+                            <span></span>
+                            <span></span>
+                            <span>eastsidedoit1986@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <div class="btn-group social-group">
+                        <a target="_blank" href="https://www.facebook.com/groups/443368247670016"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/dj_doit_king_of_t_up/"><i class="fa fa-instagram"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="scripts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animations.css">
+        <script async src="scripts/bootstrap/js/bootstrap.min.js"></script>
+        <script src="scripts/imagesloaded.min.js"></script>
+        <script src='scripts/parallax.min.js'></script>
+        <script src='scripts/jquery.progress-counter.js'></script>
+        <script src='scripts/jquery.twbsPagination.min.js'></script>
+        <script src='scripts/isotope.min.js'></script>
+        <script src='scripts/jquery.magnific-popup.min.js'></script>
+        <script src='scripts/jquery.spritely.min.js'></script>
+        <script src="scripts/smooth.scroll.min.js"></script>
+    </footer>
+</body>
+</html>
